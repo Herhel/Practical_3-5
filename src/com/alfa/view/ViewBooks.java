@@ -33,4 +33,9 @@ public class ViewBooks {
         System.out.println(ViewConstants.FORMAT_INPUT);
         return input.inputBook();
     }
+
+    public String getSearchParam() {
+        System.out.print(ViewConstants.ENTER_SEARCH);
+        return input.inputSearchParam();
+    }
 }

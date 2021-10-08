@@ -12,4 +12,8 @@ public class InputViewBooks {
     public String inputBook() {
         return sc.nextLine();
     }
+
+    public String inputSearchParam() {
+        return sc.nextLine();
+    }
 }
